@@ -1,0 +1,121 @@
+.second-section{
+    min-height: 100vh;
+    height: max-content;
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 1),rgba(0, 0, 0, 0),rgba(0, 0, 0, 1)),url(https://rexgalaxywebimages.s3.ap-southeast-2.amazonaws.com/home-page-second-section.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.second-section>.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px dotted green; */
+    padding-inline-end: 100px;
+}
+.second-section>.row>.right-col{
+    /* border: 1px solid red; */
+}
+.second-section>.row>.right-col>.row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.second-section>.row>.right-col>.row>div{
+    /* border: 2px solid red; */
+    width: max-content;
+}
+.second-section>.row>.right-col>.row>.first-col>div{
+   font-size: 35px;
+   border: 3px solid white;
+   padding-inline: 50px;
+   padding-block: 5px;
+   font-weight: 200;
+   margin-bottom: 5rem;
+   border-radius: 40px;
+    
+}
+.second-section>.row>.right-col>.row>.second-col>div{
+    font-size: 8rem;
+    /* font-family: fantasy; */
+    font-weight: 700;
+    line-height: 8rem;
+    
+ }
+ .second-section>.row>.right-col>.row>.third-col>div{
+    font-size: 8rem;
+    font-weight: 700;
+    /* font-family: fantasy; */
+    line-height: 9rem;
+ }
+ .second-section>.row>.right-col>.row>.fourth-col>div{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 200;
+    margin-top: 5rem;
+ }
+
+ @media only screen and (max-width: 791px) {
+    .second-section{
+        justify-content: center;
+    }
+    .second-section>.row{
+        display: flex;
+       padding-inline-end: 0px;
+    }
+  
+    .second-section>.row>.right-col>.row>div{
+        /* border: 2px solid red; */
+        width: max-content;
+    }
+    .second-section>.row>.right-col>.row>.first-col>div{
+       font-size: 25px;
+    
+        
+    }
+    .second-section>.row>.right-col>.row>.second-col>div{
+        font-size: 7rem;
+      
+        line-height: 7rem;
+        
+     }
+     .second-section>.row>.right-col>.row>.third-col>div{
+        font-size: 7rem;
+      
+        line-height: 8rem;
+     }
+     .second-section>.row>.right-col>.row>.fourth-col>div{
+        font-size: 1.8rem;
+     }
+ }
+
+ @media only screen and (max-width: 507px) {
+    .second-section>.row>.right-col>.row>.first-col>div{
+        font-size: 20px;
+     
+         
+     }
+     .second-section>.row>.right-col>.row>.second-col>div{
+         font-size: 4rem;
+       
+         line-height: 4rem;
+         
+      }
+      .second-section>.row>.right-col>.row>.third-col>div{
+         font-size: 4rem;
+       
+         line-height: 5rem;
+      }
+      .second-section>.row>.right-col>.row>.fourth-col>div{
+         font-size: 1.6rem;
+      }
+  }
+ 
+ 
+    
+ 
+    

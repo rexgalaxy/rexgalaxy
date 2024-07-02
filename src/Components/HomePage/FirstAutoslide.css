@@ -1,0 +1,152 @@
+.first-autoslide {
+  color: white;
+  min-height: 100vh;
+  height: max-content;
+
+  /* border: 5px solid red; */
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 1)
+    ),
+    url(https://rexgalaxywebimages.s3.ap-southeast-2.amazonaws.com/slide1-back1.png);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+}
+.first-autoslide > .text-layer {
+  position: absolute;
+  font-size: 4rem;
+  /* border: 1px solid white; */
+  font-weight: 700;
+  line-height: 4rem;
+  top: 25%;
+  left: 8%;
+  z-index: 3;
+}
+.first-autoslide > .row {
+  /* border: 5px solid yellow; */
+  height: max-content;
+  display: flex;
+  
+  justify-content: center;
+}
+.first-autoslide > .row > .col {
+  /* border: 10px dotted green; */
+  display: flex;
+  height: max-content;
+  filter: brightness(0.7);
+  overflow: hidden;
+
+}
+
+.first-autoslide > .row > .left-col {
+  display: flex;
+  justify-content: space-around;
+
+  /* border: 1px solid rgb(245, 0, 0); */
+}
+.first-autoslide > .row > .left-col > div {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 330px;
+  /* border: 2px solid white; */
+}
+.left-slide-img {
+  height: 600px;
+}
+
+.first-autoslide > .row > .right-col {
+  gap: 2rem;
+ 
+  /* border: 1px solid white; */
+}
+.first-autoslide > .row > .right-col > div {
+  height: 350px;
+  width: 280px;
+  /* border: 1px solid white; */
+}
+.right-col-img {
+  height: 400px;
+}
+
+.first-autoslide > .row > .col > .first,
+.second,
+.third {
+  /* border: 5px solid blue; */
+}
+.first-autoslide > .row > .col > .first {
+  /* background-image: url(/public/Media/slide-left1.png); */
+  background-size: cover;
+  background-attachment: scroll;
+  overflow: hidden;
+}
+/* .first-autoslide>.row>.col>.first>img{
+    animation: slide linear infinite 2s;
+
+
+}
+@keyframes slide{
+    0%{
+        filter: brightness(0);
+    }
+    100%{
+        filter: brightness(1);
+        }
+} */
+
+.first-autoslide > .row > .col > .second {
+  /* background-image: url(/public/Media/slide-right2.png); */
+  background-size: cover;
+  background-attachment: scroll;
+  overflow: hidden;
+}
+
+.first-autoslide > .row > .col > .third {
+  /* background-image: url(/public/Media/slide-right3.png); */
+  background-size: cover;
+  background-attachment: scroll;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 1032px) {
+  .first-autoslide > .row > .left-col > div {
+    height: 350px;
+    width: 230px;
+  }
+  .left-slide-img {
+    height: 400px;
+  }
+
+  .first-autoslide > .row > .right-col {
+    gap: 2rem;
+  }
+  .first-autoslide > .row > .right-col > div {
+    height: 200px;
+    width: 190px;
+  }
+  .right-col-img {
+    height: 255px;
+  }
+}
+
+@media only screen and (max-width: 742px) {
+  .first-autoslide > .row {
+    flex-direction: column;
+    gap: 2rem;
+  
+  }
+  .first-autoslide > .row > .right-col  {
+   padding-inline-start: 3rem;
+   gap:0.2rem;
+  }
+}

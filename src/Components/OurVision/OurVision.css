@@ -1,0 +1,396 @@
+.our-vision{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.our-vision>.first-row{
+    height: 100vh;
+    /* border: 10px solid red; */
+    background: linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0.5),rgba(0,0,0,0.7),rgba(0,0,0,1)),url(https://rexgalaxywebimages.s3.ap-southeast-2.amazonaws.com/our-vision-row1-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.our-vision>.first-row>.right-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: right;
+    gap: 20px;
+    padding-inline-end:30px ;
+}
+.our-vision>.first-row>.right-col>h1{
+    border-right: 10px solid red;
+    padding-right: 10px;
+}
+.our-vision>.first-row>.right-col>p{
+    font-size: 1.2rem;
+    font-weight: 200;
+    letter-spacing: 0.1rem;
+}
+/****************Second row********************/
+.our-vision>.second-row{
+    /* border: 2px solid white; */
+    height: max-content;
+}
+.our-vision>.second-row>h1{
+    /* border: 10px solid blue; */
+    text-align: center;
+    padding-block: 20px;
+}
+.our-vision>.second-row>.col{
+    display: flex;
+    flex-direction: column;
+    /* border: 5px dotted red; */
+    justify-content: center;
+}
+.our-vision>.second-row>.col>.first-row{
+    display: flex;
+    background: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,1)),linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0,1),rgba(0,0,0,1),rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(https://rexgalaxywebimages.s3.ap-southeast-2.amazonaws.com/our-vision-row2-equality-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.our-vision>.second-row>.col>.first-row>.col{
+    height: 90vh;
+    /* border: 5px solid red; */
+}
+.our-vision>.second-row>.col>.first-row>.left-col{
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 50px 200px;
+    gap: 50px;
+}
+.our-vision>.second-row>.col>.first-row>.left-col>h2{
+    font-size: 2rem;
+    padding: 10px;
+    border-left: 10px solid red;
+    border-bottom: 5px solid red;
+}
+.our-vision>.second-row>.col>.first-row>.left-col>p{
+    font-size: 1.1rem;
+    font-weight: 200;
+    letter-spacing: 0.1rem;
+   
+}
+
+.our-vision>.second-row>.col>.second-row{
+    display: flex;
+    background: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,1)),linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,1),rgba(0,0,0,1),rgba(0,0,0,1)),url(https://rexgalaxywebimages.s3.ap-southeast-2.amazonaws.com/our-vision-row2-rural-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.our-vision>.second-row>.col>.second-row>.col{
+    height: 90vh;
+}
+.our-vision>.second-row>.col>.second-row>.right-col{
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 50px;
+    gap: 50px;
+}
+.our-vision>.second-row>.col>.second-row>.right-col>h2{
+    font-size: 2rem;
+    padding: 10px;
+    border-left: 10px solid red;
+    border-bottom: 5px solid red;
+}
+.our-vision>.second-row>.col>.second-row>.right-col>p{
+    font-size: 1.1rem;
+    font-weight: 200;
+    letter-spacing: 0.1rem;
+   
+}
+
+/****************third row********************/
+.our-vision>.third-row{
+    /* border: 2px solid white; */
+    height: max-content;
+}
+.our-vision>.third-row>h1{
+    /* border: 10px solid blue; */
+    text-align: center;
+    padding-block: 20px;
+}
+.our-vision>.third-row>.col{
+    display: flex;
+    flex-direction: column;
+    /* border: 5px dotted red; */
+    justify-content: center;
+}
+.our-vision>.third-row>.col>.first-row{
+    display: flex;
+    background: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,1)),linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0,1),rgba(0,0,0,1),rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(https://rexgalaxywebimages.s3.ap-southeast-2.amazonaws.com/our-vision-row3-geographical-background.png);
+    background-position-y: 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.our-vision>.third-row>.col>.first-row>.col{
+    height: 90vh;
+}
+.our-vision>.third-row>.col>.first-row>.left-col{
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 50px 200px;
+    gap: 50px;
+}
+.our-vision>.third-row>.col>.first-row>.left-col>h2{
+    font-size: 2rem;
+    padding: 10px;
+    border-left: 10px solid red;
+    border-bottom: 5px solid red;
+}
+.our-vision>.third-row>.col>.first-row>.left-col>p{
+    font-size: 1.1rem;
+    font-weight: 200;
+    letter-spacing: 0.1rem;
+   
+}
+
+.our-vision>.third-row>.col>.second-row{
+    display: flex;
+    background: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,1)),linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,1),rgba(0,0,0,1),rgba(0,0,0,1)),url(https://rexgalaxywebimages.s3.ap-southeast-2.amazonaws.com/our-vision-row3-language-background.png);
+    background-position-y:80% ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.our-vision>.third-row>.col>.second-row>.col{
+    height: 90vh;
+}
+.our-vision>.third-row>.col>.second-row>.right-col{
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 50px;
+    gap: 50px;
+}
+.our-vision>.third-row>.col>.second-row>.right-col>h2{
+    font-size: 2rem;
+    padding: 10px;
+    border-left: 10px solid red;
+    border-bottom: 5px solid red;
+}
+.our-vision>.third-row>.col>.second-row>.right-col>p{
+    font-size: 1.1rem;
+    font-weight: 200;
+    letter-spacing: 0.1rem;
+   
+}
+
+.our-vision>.third-row>.col>.third-row{
+    display: flex;
+    background: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,1)),linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0,1),rgba(0,0,0,1),rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(https://rexgalaxywebimages.s3.ap-southeast-2.amazonaws.com/our-vision-row3-local-talent-background.png);
+    background-position-y: 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 20px solid blue; */
+    
+   
+    
+}
+.our-vision>.third-row>.col>.third-row>.col{
+    height: 90vh;
+}
+.our-vision>.third-row>.col>.third-row>.left-col{
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 50px 200px;
+    gap: 50px;
+}
+.our-vision>.third-row>.col>.third-row>.left-col>h2{
+    font-size: 2rem;
+    padding: 10px;
+    border-left: 10px solid red;
+    border-bottom: 5px solid red;
+}
+.our-vision>.third-row>.col>.third-row>.left-col>p{
+    font-size: 1.1rem;
+    font-weight: 200;
+    letter-spacing: 0.1rem;
+   
+}
+
+/****************Fourth Row*************************/
+.our-vision>.fourth-row{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to right,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0),rgba(0,0,0,1),rgba(0,0,0,1)),url(https://rexgalaxywebimages.s3.ap-southeast-2.amazonaws.com/our-vision-row4-join-us-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.our-vision>.fourth-row>.left-col>.join-us-div{
+ height: 60vh;
+ border: 5px solid rgb(255, 255, 255);
+ width: 70%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+.our-vision>.fourth-row>.left-col>.join-us-div>.btn{
+    padding-block: 10px;
+    padding-inline: 50px;
+    border: 2px solid white;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 200;
+    letter-spacing: 0.1rem;
+    transition: all 1s;
+    
+}
+.our-vision>.fourth-row>.left-col>.join-us-div>.btn:hover{
+
+    background-color: white;
+    color: black;
+    
+    
+    
+}
+.our-vision>.fourth-row>.right-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap:50px;
+}
+.our-vision>.fourth-row>.right-col>h1{
+    padding: 10px;
+    border-left:10px solid red ;
+    border-bottom: 5px solid red;
+
+}
+.our-vision>.fourth-row>.right-col>p{
+    font-size: 1.2rem;
+    font-weight: 200;
+    letter-spacing: 0.1rem;
+    
+}
+
+@media only screen and (max-width: 1500px) {
+    .our-vision>.second-row>.col>.first-row{
+ background-position-x:60% ;
+    }
+    .our-vision>.third-row>.col>.first-row{
+background-position-x: 60% ;
+    }
+    .our-vision>.third-row>.col>.third-row{
+        background-position-x: 70% ;
+
+            }
+      .our-vision>.fourth-row>.left-col>.join-us-div{
+          aspect-ratio: 1/1;
+      }
+
+
+    
+}
+
+@media only screen and (max-width: 900px) {
+    .our-vision>.first-row{
+        background: linear-gradient(to bottom ,rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,1),rgba(0,0,0,1),rgba(0,0,0,1)),url(https://rexgalaxywebimages.s3.ap-southeast-2.amazonaws.com/our-vision-row1-background.png);
+        flex-direction: column;
+        gap: 50px;
+        background-position-x: 50%;
+    }
+    .our-vision>.first-row>.col{
+        text-align: left;
+        padding-inline:1rem ;
+    }
+    .our-vision>.second-row>.col>.first-row{
+        background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)),url(https://rexgalaxywebimages.s3.ap-southeast-2.amazonaws.com/our-vision-row2-equality-background-flip.png);
+        height: 100vh;
+        background-position-x:0% ;
+        flex-direction: column-reverse;
+    }
+    .our-vision>.second-row>.col>.first-row>.left-col{
+        justify-content: center;
+        padding-inline: 20px;
+    }
+
+
+    .our-vision>.second-row>.col>.second-row{
+        background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)),url(https://rexgalaxywebimages.s3.ap-southeast-2.amazonaws.com/our-vision-row2-rural-background.png);
+        height: 100vh;
+        background-position-x:0% ;
+        flex-direction: column;
+    }
+    .our-vision>.second-row>.col>.second-row>.right-col{
+        justify-content: center;
+        padding-inline: 20px;
+    }
+
+
+    .our-vision>.third-row>.col>.first-row{
+        background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)),url(https://rexgalaxywebimages.s3.ap-southeast-2.amazonaws.com/our-vision-row3-geographical-background.png);
+        height: 100vh;
+        background-position-x:50% ;
+        flex-direction: column-reverse;
+    }
+    .our-vision>.third-row>.col>.first-row>.left-col{
+        justify-content: center;
+        padding-inline: 20px;
+    }
+
+    .our-vision>.third-row>.col>.second-row{
+        background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)),url(https://rexgalaxywebimages.s3.ap-southeast-2.amazonaws.com/our-vision-row3-language-background.png);
+        height: 100vh;
+        background-position-x:0% ;
+        flex-direction: column;
+    }
+    .our-vision>.third-row>.col>.second-row>.right-col{
+        justify-content: center;
+        padding-inline: 20px;
+    }
+
+
+    .our-vision>.third-row>.col>.third-row{
+        background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,1)),url(https://rexgalaxywebimages.s3.ap-southeast-2.amazonaws.com/our-vision-row3-local-talent-background.png);
+        height: 100vh;
+        background-position-x:90% ;
+        flex-direction: column-reverse;
+    }
+    .our-vision>.third-row>.col>.third-row>.left-col{
+        justify-content: center;
+        padding-inline: 20px;
+    }
+
+    .our-vision>.fourth-row{
+        /* border: 5px solid red; */
+        height: max-content;
+    }
+    .our-vision>.fourth-row>.col{
+        /* border: 5px solid green; */
+        display: flex;
+        justify-content: center;
+        padding-block: 50px;
+    }
+
+    .our-vision>.fourth-row>.left-col>.join-us-div{
+        height: 50vh;
+        aspect-ratio: 1/1;
+    }
+
+    .our-vision>.fourth-row>.left-col>.join-us-div{
+        height: 50vh;
+        aspect-ratio: 1/1;
+    }
+    .our-vision>.fourth-row>.left-col>.join-us-div>.btn{
+        padding-inline: 20px;
+    }
+        
+    }
+

@@ -1,0 +1,89 @@
+.contactUs-page{
+    color: white;
+    padding-block: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contactUs-page>.main-heading{
+  display: flex;
+  justify-content: center;
+
+}
+.contactUs-page>.main-heading>.col{
+    text-align: center;
+    /* border: 1px solid white; */
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.contactUs-page>.heading-para{
+    padding-block: 1rem;
+    padding-inline: 10rem;
+}
+
+.contactUs-page>.heading-para>.col{
+    font-size: 1.1rem;
+    /* border: 1px solid white; */
+    /* letter-spacing: 1.2px; */
+    /* text-align: center; */
+}
+.contactUs-page>.map-section{
+    margin-block: 4rem;
+    width: 100vw;
+}
+
+.contact-form{
+    width: 30rem;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.3rem;
+    /* border: 1px solid white; */
+    padding: 3rem;
+    box-shadow: 10px 10px 10px 10px black;
+    border-radius: 10px;
+}
+
+.contact-form>.col{
+    margin-block: 1rem;
+    min-height: 2rem;
+    font-size: 1rem;
+    border-radius: 7px;
+}
+.contact-form>button{
+    height: 4rem;
+    width: max-content;
+    padding-inline: 3rem;
+    border-radius: 5px;
+    transition: all 1s;
+    background-color: white;
+    color: black;
+    letter-spacing: 2px;
+    align-self: center;
+    box-shadow: 0 0 10px 10px black;
+}
+.contact-form>button:hover{
+    background-color: rgb(84, 84, 84);
+    color: white;
+}
+
+
+/**************Media Query*********************/
+@media screen and (max-width:1318px){
+    .contactUs-page>.heading-para{
+        padding-inline: 4rem;
+       text-align: justify;
+
+    }
+}
+
+@media screen and (max-width:577px){
+    .contact-form{
+      width: 350px;
+      
+    }
+    
+}

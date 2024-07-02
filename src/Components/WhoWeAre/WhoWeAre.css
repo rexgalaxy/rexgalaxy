@@ -1,0 +1,334 @@
+.who-we-are-page{
+    min-height: 100vh;
+    height: max-content;
+    width: 100vw;
+    flex-direction: column;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+
+}
+.who-we-are-page>.first-row{
+    /* border: 1px solid white; */
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,1)), linear-gradient(to right,rgba(0, 0, 0,0.9),rgba(0, 0, 0,0.6),rgba(0, 0, 0,0.3)),url(https://rexgalaxywebimages.s3.ap-southeast-2.amazonaws.com/who-we-are-row1-background.png);
+    background-size: cover;
+
+}
+.who-we-are-page>.first-row>.col{
+    /* border: 2px solid blue; */
+    height: max-content;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    gap: 50px;
+    align-items: start;
+}
+.who-we-are-page>.first-row>.col>h1{
+    font-size: 4rem;
+    color: white;
+    padding-inline: 20px;
+    border-left: 10px solid red;
+    border-bottom: 5px solid red;
+
+}
+.who-we-are-page>.first-row>.col>p{
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 200;
+    letter-spacing: 0.1rem;
+    border-left: 10px solid white;
+    padding-inline: 20px;
+    text-align: justify;
+}
+.who-we-are-page>.first-row>.col>img{
+    height: 400px;
+    margin-inline-end: 10px;
+    filter: drop-shadow(5px 5px 5px rgb(0, 0, 0));
+    align-self: flex-end;
+    /* border: 2px solid green; */
+}
+.who-we-are-page>.second-row{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.who-we-are-page>.second-row>h1{
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    padding-block: 50px;
+    
+}
+.who-we-are-page>.second-row>.col{
+    display: flex;
+    /* border: 10px solid white; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.who-we-are-page>.second-row>.col>.row{
+    /* border: 1px solid red; */
+    width: 100vw;
+}
+.who-we-are-page>.second-row>.col>.row>.col{
+    /* border: 2px solid green; */
+    height: 60vh;
+}
+
+.who-we-are-page>.second-row>.col>.first-row>.left-col{
+    background: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,1)),linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,1)),url(https://rexgalaxywebimages.s3.ap-southeast-2.amazonaws.com/who-we-are-row2-ai-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.who-we-are-page>.second-row>.col>.first-row>.right-col{
+    background-color: black;
+    color: white;
+    text-align: right;
+    padding-block: 20px;
+    padding-inline: 20px;
+   
+}
+
+.who-we-are-page>.second-row>.col>.first-row>.right-col>p{
+   font-size: 1.1rem;
+   font-weight: 200;
+   letter-spacing: 0.1rem;
+   padding-block-start: 50px;
+   
+}
+.who-we-are-page>.second-row>.col>.first-row>.right-col>h2{
+   font-size: 1.8rem;
+   width: max-content;
+   padding-inline-start: 10px;
+   padding-block-end: 10px;
+   border-left: 10px solid red;
+   border-bottom: 5px solid red;
+   
+    
+ }
+.who-we-are-page>.second-row>.col>.second-row>.left-col{
+        background-color: black;
+        color: white;
+        text-align: left;
+        padding-block: 20px;
+        padding-inline: 20px;
+}
+.who-we-are-page>.second-row>.col>.second-row>.right-col{
+    background: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,1)),linear-gradient(to left,rgba(0,0,0,0),rgba(0,0,0,1)),url(https://rexgalaxywebimages.s3.ap-southeast-2.amazonaws.com/who-we-are-row2-software-solutions-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.who-we-are-page>.second-row>.col>.second-row>.left-col>p{
+    font-size: 1.1rem;
+    font-weight: 200;
+    letter-spacing: 0.1rem;
+    padding-block-start: 50px;
+ }
+ .who-we-are-page>.second-row>.col>.second-row>.left-col>h2{
+    font-size: 1.8rem;
+    width: max-content;
+    padding-inline-start: 10px;
+    padding-block-end: 10px;
+    border-left: 10px solid red;
+    border-bottom: 5px solid red;
+  }
+.who-we-are-page>.second-row>.col>.third-row>.left-col{
+    background: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,1)),linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,1)),url(https://rexgalaxywebimages.s3.ap-southeast-2.amazonaws.com/who-we-are-row2-uc-background.png);
+    background-size: cover;
+}
+.who-we-are-page>.second-row>.col>.third-row>.right-col{
+    background-color: black;
+    color: white;
+    text-align: right;
+    padding-block: 20px;
+    padding-inline: 20px;
+   
+}
+.who-we-are-page>.second-row>.col>.third-row>.right-col>p{
+    font-size: 1.1rem;
+    font-weight: 200;
+    letter-spacing: 0.1rem;
+    padding-block-start: 50px;
+ }
+ .who-we-are-page>.second-row>.col>.third-row>.right-col>h2{
+    font-size: 1.8rem;
+    width: max-content;
+    padding-inline-start: 10px;
+    padding-block-end: 10px;
+    border-left: 10px solid red;
+    border-bottom: 5px solid red;
+  }
+
+  .who-we-are-page>.third-row{
+    min-height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 1),rgba(0, 0, 0, 0),rgba(0, 0, 0, 0),rgba(0, 0, 0, 0),rgba(0, 0, 0, 1)),linear-gradient(to right,rgba(0, 0, 0,1),rgba(0, 0, 0,1),rgba(0, 0, 0,1),rgba(0, 0, 0,0.9),rgba(0, 0, 0,0.7),rgba(0, 0, 0,0.5),rgba(0, 0, 0,0),rgba(0, 0, 0,0)),url(https://rexgalaxywebimages.s3.ap-southeast-2.amazonaws.com/who-we-are-row3-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .who-we-are-page>.third-row>.left-col{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    gap: 50px;
+  }
+  .who-we-are-page>.third-row>.left-col>h1{
+    font-size: 3rem;
+    padding-inline: 20px;
+    padding-block: 10px;
+    border-left: 10px solid red;
+    border-bottom: 5px solid red;
+  }
+  .who-we-are-page>.third-row>.left-col>p{
+    font-size: 1.1rem;
+    font-weight: 200;
+    letter-spacing: 0.1rem;
+    border-top: 5px solid white;
+    padding-block-start: 20px;
+  }
+.who-we-are-page>.fourth-row{
+    /* border: 1px solid white; */
+    height: 100vh;
+    
+}
+.who-we-are-page>.fourth-row>.left-col{
+    background: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,1)),linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,1)),url(https://rexgalaxywebimages.s3.ap-southeast-2.amazonaws.com/who-we-are-row4-joinus-background.png);
+    background-position: 95%;
+}
+.who-we-are-page>.fourth-row>.right-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    color: white;
+}
+.who-we-are-page>.fourth-row>.right-col>h2{
+    font-size: 3rem;
+    border-left: 10px solid red;
+    border-bottom: 5px solid red;
+    padding-inline: 10px;
+    padding-block: 10px;
+}
+.who-we-are-page>.fourth-row>.right-col>p{
+    padding-block: 20px;
+    font-size: 1.1rem;
+    font-weight: 200;
+    letter-spacing: 0.1rem;
+    padding-inline: 10px;
+}
+
+.who-we-are-page>.fourth-row>.right-col>.join-us-btn{
+    padding-block: 5px;
+    font-size: 25px;
+    font-weight: 200;
+    padding-inline: 50px;
+    transition: all 1s;
+    border: 1px solid white;
+    border-left: 1px solid white;
+}
+.who-we-are-page>.fourth-row>.right-col>.join-us-btn:hover{
+    border-left: 100px solid white;
+}
+
+@media only screen and (max-width: 1400px) {
+    .who-we-are-page>.first-row{
+    background-position-x: 50%;
+    
+    }   
+    .who-we-are-page>.third-row{
+       background-position-x:50% ;
+      }
+      .who-we-are-page>.second-row>.col>.second-row>.right-col{
+   background-position-x:50% ;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .who-we-are-page>.second-row>.col>.first-row{
+        display: flex;
+        flex-direction: column;
+        /* border: 10px solid red; */
+    } 
+    .who-we-are-page>.second-row>.col>.first-row>.left-col{
+        /* border: 2px solid green; */
+        height: 50vh;
+        aspect-ratio: 1;
+    }  
+    .who-we-are-page>.second-row>.col>.second-row{
+        display: flex;
+        flex-direction: column-reverse;
+        /* border: 10px solid red; */
+    } 
+    .who-we-are-page>.second-row>.col>.second-row>.right-col{
+        /* border: 2px solid green; */
+        height: 50vh;
+        aspect-ratio: 1;
+    }  
+    .who-we-are-page>.second-row>.col>.third-row{
+        display: flex;
+        flex-direction: column;
+        /* border: 10px solid red; */
+    } 
+    .who-we-are-page>.second-row>.col>.third-row>.left-col{
+        /* border: 2px solid green; */
+        height: 50vh;
+        aspect-ratio: 1;
+    }  
+    .who-we-are-page>.third-row{
+        display: flex;
+        flex-direction: column-reverse;
+        background: linear-gradient(to bottom,rgba(0, 0, 0,1),rgba(0, 0, 0,0),rgba(0, 0, 0,1),rgba(0, 0, 0,1)),url(https://rexgalaxywebimages.s3.ap-southeast-2.amazonaws.com/who-we-are-row3-background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: 80%;
+        align-items: end;
+    
+    }
+    .who-we-are-page>.third-row>.left-col{
+        justify-content: flex-end;
+        
+    }
+    .who-we-are-page>.fourth-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .who-we-are-page>.fourth-row>.left-col{
+        background: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,1)),linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,1)),url(https://rexgalaxywebimages.s3.ap-southeast-2.amazonaws.com/who-we-are-row4-joinus-background.png);
+        background-position: 95%;
+    }
+    .who-we-are-page>.fourth-row>.right-col{
+        justify-content: flex-end;
+        
+    }
+    .who-we-are-page>.fourth-row>.right-col>.join-us-btn{
+    margin-block-end: 100px;
+    }
+  
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .who-we-are-page>.first-row{
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    .who-we-are-page>.second-row>.col>.second-row>.left-col>h2{
+        width: 90vw;
+    }
+    .who-we-are-page>.fourth-row{
+        height: 100vh;
+        
+    }
+}

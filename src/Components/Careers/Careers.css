@@ -1,0 +1,363 @@
+.careers-page {
+  height: max-content;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.careers-page > .first-row {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 5rem;
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0)
+    ),
+    url(https://rexgalaxywebimages.s3.ap-southeast-2.amazonaws.com/careers-row1-background.png);
+  /* background:linear-gradient( to right,rgba(0, 0, 0,1),rgba(0, 0, 0,1),rgba(0, 0, 0,0.8),rgba(0, 0, 0,00.2)),url(../../../public/Media/my-pic.jpg); */
+  /* background-size: cover; */
+  background-size: cover;
+  
+ background-repeat: no-repeat;
+  overflow: hidden;
+
+  /* border: 1px solid white; */
+}
+.careers-page > .first-row > .col {
+  /* border: 1px solid blue; */
+  color: white;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 0.1rem;
+  font-weight: 200;
+}
+.careers-page > .first-row > .col > h1 {
+  letter-spacing: 0.2rem;
+  /* word-spacing: 0.5rem; */
+  font-size: 2.5rem;
+  font-weight: 400;
+  padding-block: 3rem;
+  border-bottom: 5px solid red;
+}
+.careers-page > .first-row > .col > p {
+  background-color: transparent;
+  padding-block: 0.2rem;
+  color: white;
+  border-left: 50px solid white;
+  width: max-content;
+  padding-inline: 2rem;
+  margin-block: 2rem;
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+
+/**********************second row**********************/
+.careers-page>.second-row {
+  height: max-content;
+  padding-block: 5rem;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 1)
+    ),
+    url(https://rexgalaxywebimages.s3.ap-southeast-2.amazonaws.com/careers-row2-background.png);
+  background-size: cover;
+}
+.careers-page>.second-row > .col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.careers-page>.second-row > .col > .heading-row {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  /* width: max-content; */
+  border-bottom: 5px solid red;
+  /* border: 1px solid white; */
+}
+.careers-page>.second-row > .col > .heading-text-row {
+  /* border: 1px solid white; */
+  font-size: 1.3rem;
+  font-weight: 200;
+  text-shadow: 5px 5px 10px black;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.2rem;
+  text-align: center;
+  padding-inline: 10rem;
+  padding-block: 1rem;
+  height: max-content;
+  color: white;
+}
+.careers-page>.second-row > .col > .content-row {
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+}
+.careers-page>.second-row > .col > .content-row > .left-col {
+  font-size: 5rem;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  text-shadow: 5px 5px 10px black;
+  color: white;
+  /* border: 1px solid white; */
+}
+.careers-page>.second-row > .col > .content-row > .right-col {
+    /* border: 1px solid white; */
+  width: 400px;
+  display: flex;
+  padding-inline: 1rem;
+  padding-block: 1rem;
+}
+.careers-page>.second-row
+  > .col
+  > .content-row
+  > .right-col
+  > .carousel
+  > .carousel-inner
+  > .carousel-item {
+  /* border: 1px solid red; */
+  font-size: 1.3rem;
+  color: white;
+  font-weight: 500;
+  width: 400px;  
+  /* overflow: hidden; */
+  text-align: center;
+  font-weight: 200;
+}
+
+.careers-page>.second-row
+  > .col
+  > .content-row
+  > .right-col
+  > .carousel
+  > .carousel-inner
+  > .carousel-item
+  > img {
+  height: 280px;
+  filter: drop-shadow(5px 5px 10px black);
+  margin-block-end: 1rem;
+  /* border: 10px solid white; */
+}
+
+/*****************Third row*****************/
+.careers-page>.third-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.95),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.95)
+    ),
+    url(https://rexgalaxywebimages.s3.ap-southeast-2.amazonaws.com/careers-row3-background.png);
+  background-size: cover;
+  padding-bottom: 100px;
+  
+  /* background-attachment: fixed; */
+}
+.careers-page>.third-row > .col {
+  display: flex;
+  justify-content: center;
+}
+.careers-page>.third-row > .col > form > h2 {
+  text-align: center;
+  padding-block-end: 5px;
+  border-bottom: 5px solid red;
+  color: rgb(176, 175, 175);
+}
+.careers-page>.third-row > .col > form {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  width: max-content;
+  gap: 20px;
+  padding-block: 50px;
+  backdrop-filter: blur(10px);
+  padding-inline: 50px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 10px black;
+}
+.careers-page>.third-row > .col > form > input,
+select {
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+  padding-inline: 10px;
+  border-radius: 10px;
+}
+.careers-page>.third-row > .col > form > .submit-btn {
+  background: transparent;
+  border: 3px solid white;
+  color: wheat;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+  transition: all 1s;
+}
+.careers-page>.third-row > .col > form > .submit-btn:hover {
+  background-color: white;
+  color: black;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 1000px) {
+
+      .careers-page > .first-row {
+        background-position-x: 50%;
+      }
+  .careers-page > .first-row > .col {
+    font-size: 1.1rem;
+  }
+  .careers-page > .first-row > .col > h1 {
+    letter-spacing: 0.1rem;
+    word-spacing: 0.5rem;
+    font-size: 2.7rem;
+  }
+  .careers-page>.second-row > .col > .heading-row {
+    font-size: 2.2rem;
+    font-weight: 500;
+  }
+  .careers-page>.second-row > .col > .heading-text-row {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width:860px){
+    .careers-page > .first-row {
+        background-position-x: 70%;
+        padding-inline: 2rem;
+      }
+  .careers-page > .first-row > .col {
+    font-size: 1rem;
+    padding-block-start: 5rem;text-align: justify;
+  }
+  .careers-page > .first-row > .col > h1 {
+    font-size: 2rem;
+    padding-block: 1rem;
+    text-align: left;
+  }
+  .careers-page>.second-row > .col > .heading-row {
+    font-size: 2rem;
+
+  }
+  .careers-page>.second-row > .col > .heading-text-row {
+    font-size: 1rem;
+    text-align: justify;
+    padding-inline: 2rem;
+  } 
+  .careers-page>.second-row > .col > .content-row {
+    gap: 1rem;
+  }
+  .careers-page>.second-row > .col > .content-row > .left-col {
+    font-size: 4rem;
+   
+  }
+  .careers-page>.second-row > .col > .content-row > .right-col {
+    width: 320px;
+  }
+  .careers-page>.second-row
+    > .col
+    > .content-row
+    > .right-col
+    > .carousel
+    > .carousel-inner
+    > .carousel-item {
+    font-size: 1rem;
+  }
+  
+  .careers-page>.second-row
+    > .col
+    > .content-row
+    > .right-col
+    > .carousel
+    > .carousel-inner
+    > .carousel-item
+    > img {
+    height: 200px;
+    filter: drop-shadow(5px 5px 10px black);
+    margin-block-end: 1rem;
+    /* border: 10px solid white; */
+  }
+  .careers-page>.second-row
+  > .col
+  > .content-row
+  > .right-col
+  > .carousel
+  > .carousel-inner
+  > .carousel-item {
+  width: 300px;  
+}
+}
+
+@media only screen and (max-width:624px){
+    .careers-page > .first-row {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        padding-inline: 1rem;
+        background: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.9),
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.1)
+          ),
+          linear-gradient(
+            to top,
+            rgba(0, 0, 0, 0.9),
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.2)
+          ),
+          url(https://rexgalaxywebimages.s3.ap-southeast-2.amazonaws.com/careers-row1-background.png);
+        
+      }
+    .careers-page > .first-row {
+        background-position-x: 80%;
+        flex-direction: column-reverse;
+      }
+  .careers-page > .first-row > .col {
+    padding-block-start:5rem;
+  
+  }
+
+  .careers-page>.second-row > .col > .content-row {
+    gap: 1rem;
+    flex-direction: column;
+  }
+  .careers-page>.third-row > .col > form {
+    padding-inline: 20px;
+    gap: 40px;
+  
+  }
+  .careers-page>.third-row > .col > form > input,
+select {
+  width: 300px;
+  height: 50px;
+  font-size: 17px;
+}
+.careers-page>.third-row > .col > form > .submit-btn {
+  background: transparent;
+  border: 3px solid white;
+  color: wheat;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+  transition: all 1s;
+}
+ 
+  
+}

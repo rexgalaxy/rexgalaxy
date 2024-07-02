@@ -1,0 +1,112 @@
+.top-slide-1,
+.top-slide-2,
+.top-slide-3,
+.top-slide-4,
+.top-slide-5,
+.top-slide-6,
+.top-slide-7 {
+  min-height: 100vh;
+  height: max-content;
+  color: white;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+.top-slide-1 {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8) , rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url(https://rexgalaxywebimages.s3.ap-southeast-2.amazonaws.com/top-slide1.jpg);
+}
+.top-slide-2 {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8) , rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url(https://rexgalaxywebimages.s3.ap-southeast-2.amazonaws.com/top-slide2.jpg);
+}
+.top-slide-3 {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8) , rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url(https://rexgalaxywebimages.s3.ap-southeast-2.amazonaws.com/top-slide3.jpg);
+}
+.top-slide-4 {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8) , rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url(https://rexgalaxywebimages.s3.ap-southeast-2.amazonaws.com/top-slide4.jpg);
+}
+.top-slide-5 {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8) , rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url(https://rexgalaxywebimages.s3.ap-southeast-2.amazonaws.com/top-slide5.jpg);
+}
+.top-slide-6 {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8) , rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url(https://rexgalaxywebimages.s3.ap-southeast-2.amazonaws.com/top-slide6.jpg);
+}
+/* .top-slide-7 {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../../../public/Media/top-slide4.jpg);
+} */
+.top-slide-1,
+.top-slide-2,
+.top-slide-3,
+.top-slide-4,
+.top-slide-5,
+.top-slide-6,
+.top-slide-7 {
+  background-size: cover;
+}
+
+.top-slide-row > h1 {
+  font-size: 3.2rem;
+  letter-spacing: 0.2rem;
+  margin-block-start: 3rem;
+  font-weight: 600;
+  text-align: left;
+}
+.top-slide-row {
+  padding-inline-start: 5rem;
+  padding-inline-end: 15rem;
+  text-align: left;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  font-weight: 200;
+  border-left: 50px dashed red;
+
+}
+.top-slide-row >.learn-more-btn {
+  background-color: transparent;
+  border: 2px solid white;
+  padding-inline: 2rem;
+  padding-block: 0.5rem;
+  color: white;
+  text-decoration: none;
+  width: max-content;
+  margin-block: 3rem;
+  letter-spacing: 0.1rem;
+  font-weight: 200;
+  transition: all 1s;
+}
+.top-slide-row >.learn-more-btn:hover {
+  background-color: white;
+  color: black;
+}
+.red-line {
+  height: 500px;
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  background-color: red;
+  clip-path: polygon(90% 0, 94% 0, 4% 100%, 0% 100%);
+}
+
+@media only screen and (max-width: 512px) {
+  .top-slide-row > h1 {
+    font-size: 2.2rem;
+    letter-spacing: 0.1rem;
+  }
+  .top-slide-row {
+    padding-inline-start: 2rem;
+    text-align: left;
+    border-left: 20px dashed red;
+    font-size: 1.1rem;
+  }
+  .top-slide-row >.learn-more-btn {
+   margin-block-start: 2rem;
+  }
+}

@@ -1,0 +1,86 @@
+.right-side-menu{
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(7, 7, 7,0.9) ;
+    width: 300px;
+    z-index: 999999;
+    right: 0px;
+    position: fixed;
+    color: white;
+    overflow: hidden;
+    animation: widthc 0.5s linear;
+    overflow-y: scroll;
+
+}
+
+@keyframes widthc{
+    from{
+        width: 0px;
+        
+    }
+    to{
+        width: 300px;
+    }
+}
+
+.close-btn-row{
+    justify-content: end;
+}
+
+.right-side-menu>.row>.close-btn{
+    height: 30px;
+    font-weight: 100;
+    margin:30px 20px;
+    font-size: 20px;
+    width: max-content;
+   
+}
+
+.right-side-menu>.row>.close-btn:hover{
+    color:red;
+    font-weight: 100;
+    cursor: pointer;
+
+}
+.right-side-menu>.logo-row{
+    margin-bottom: 20px;
+}
+
+.right-side-menu>.logo-row>.logo>img{
+    height: 80px;
+    transition: all 1s;
+    margin-top: 10px;
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+.right-side-menu>.menu-options-row .col{
+    padding:5px 50px ;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: all 0.8s;
+    
+}
+
+.right-side-menu>.menu-options-row .col:hover{
+    background-color:red;
+    cursor: pointer;
+    /* background: linear-gradient(to right,rgba(250, 56, 56, 0.95),rgba(250, 56, 56, 0.0)); */
+}
+.right-side-menu>.social-links{
+    margin-top: 40px;
+    justify-content: space-around;
+    margin-left: 1px;
+
+}
+.right-side-menu>.social-links>.col{
+    width: max-content;
+    transition: all 0.8s;
+    
+    
+}
+.right-side-menu>.social-links>.col:hover{
+    color: rgb(230, 43, 81);
+    cursor: pointer;
+}

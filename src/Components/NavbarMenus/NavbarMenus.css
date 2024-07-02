@@ -1,0 +1,89 @@
+
+.heading-row{
+  padding: 30px 40px;
+  font-size: 1.1rem;
+  font-weight: 100;
+  color: rgb(214, 214, 214) ;
+  letter-spacing: 0.1rem;
+  line-height: 2.5rem;
+  
+
+}
+.hireDeveloper{
+  color: rgb(214, 214, 214);
+  background-color: rgb(34, 34, 34);
+  margin-top: 2px;
+  position: fixed;
+  padding-block-end: 2rem;
+  height: max-content;
+  overflow: hidden;
+  animation: heighgrow 1s ease-in-out;
+  /* box-shadow: 10px 0 10px 10px black; */
+  z-index: 9999;
+}
+.hireDeveloper>.closebtn-row{
+  justify-content: flex-end;
+  margin: 10px;
+}
+.hireDeveloper>.closebtn-row>.closebtn{
+  border: 1px solid white;
+  width: max-content;
+  padding: 3px 10px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  /* box-shadow: 5px 5px 5px 5px black; */
+}
+.hireDeveloper>.closebtn-row>.closebtn:hover{
+  cursor: pointer;
+  color: red;
+  border:1px solid red;
+}
+
+@keyframes heighgrow{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+
+.hireDeveloper>.row>.heading{
+  text-align: left;
+  font-size: 40px;
+  color: rgb(230, 39, 39);
+  font-weight: 500;
+  margin-left: -12px;
+}
+.hireDeveloper>.row>.col>ul{
+  list-style-type: none;
+}
+.hireDeveloper>.row>.col>ul>li{
+  cursor: pointer;
+  line-height: 2.4rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+
+  font-weight:300;
+}
+.hireDeveloper>.row>.col>ul>li>.link{
+  text-decoration: none;
+ color: rgb(214, 214, 214);
+}
+.hireDeveloper>.row>.col>ul>li:hover::first-letter{
+  color: red;
+  font-weight: 500;
+  cursor: pointer;
+}
+#know-more-btn{
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  width: max-content;
+  margin-top: 50px;
+  transition: all 1s;
+}
+#know-more-btn:hover{
+  border-left: 100px solid white;
+}

@@ -1,0 +1,16 @@
+.error-page{
+    background-color: rgb(209, 190, 190);
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.error-page>.row>.col>img{
+    height: 600px;
+    
+}

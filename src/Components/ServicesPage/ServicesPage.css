@@ -1,0 +1,255 @@
+.services-page{
+    padding-block: 70px;
+    color:white  !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-image: url('../../../public/Media/Slide1.png'); */ 
+    
+}
+.services-page>.main-heading{
+    animation: shadow 10s alternate infinite;
+}
+
+@keyframes shadow{
+    0%{
+        box-shadow: 0 0 10px 10px red;
+    }
+    /* 20%{
+        box-shadow: 0 0 10px 10px red;
+    } */
+    21%{
+        box-shadow: 0 0 10px 10px green;
+    }
+    /* 40%{
+        box-shadow: 0 0 10px 10px green;
+    } */
+    41%{
+        box-shadow: 0 0 10px 10px blue;
+    }
+    /* 60%{
+        box-shadow: 0 0 10px 10px blue;
+    } */
+    61%{
+        box-shadow: 0 0 10px 10px yellow;
+    }
+    /* 80%{
+        box-shadow: 0 0 10px 10px yellow;
+    } */
+    81%{
+        box-shadow: 0 0 10px 10px skyblue;
+    }
+    100%{
+        box-shadow: 0 0 10px 10px skyblue;
+    }
+}
+.services-page>.row>h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 20px ;
+    
+    
+}
+.services-page>.row{
+    /* border: 2px solid white; */
+    padding: 20px;
+
+    text-decoration: none;
+    margin-block: 70px;
+    width: 97%;
+    box-shadow: 10px 10px 10px 10px black;
+    transition: all 1.3s;
+    animation: shadow 10s alternate infinite;
+}
+.services-page>.row:hover{
+box-shadow: 0px 0px 20px 20px red;
+
+}
+
+.services-page>.row>.col>img{
+    height: 200px;
+   
+}
+
+
+.services-page>.row>.col{
+    width: max-content;
+    
+}
+.services-page>.row>.col>.icon{
+ font-size: 200px;
+ color: white;
+
+}
+
+
+
+
+.services-page>.row>.service-about-col{
+ 
+}
+.services-page>.row>.service-about-col>.heading{
+    color: white;
+    font-size: 40px;
+    text-align: justify;
+}
+.services-page>.row>.service-about-col>.description{
+    color:white  !important;
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-align: justify;
+}
+/* .services-page>.row>.col{
+    margin: 40px;
+} */
+.services-page>.row>.service-img-col{
+    height: max-content;
+    
+    aspect-ratio: 1;
+    /* border: 1px solid red; */
+    /* box-shadow: 5px 5px 20px 10px rgb(5, 3, 3); */
+    transition: all 1s;
+    
+}
+
+
+
+.services-page>.row>.service-img-col:hover{
+    box-shadow: 0px 0px 20px 20px rgb(53, 53, 250);
+}
+
+
+/*************individual service page Styles Start************/
+.individual-service-page{
+    height: max-content;
+    padding-block: 50px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0,1), rgba(0, 0, 0,0), rgba(0, 0, 0,1)),url(https://rexgalaxywebimages.s3.ap-southeast-2.amazonaws.com/individual-service-background.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.individual-service-page>.row{
+    overflow:hidden;
+    padding-block: 30px;
+    padding-inline: 40px;
+    margin-block: 2rem;
+    width: 95%;
+    border-radius: 5px;
+    border: 5px solid white;
+    box-shadow: 0px 0px 10px 10px rgb(0, 0, 0);
+}
+.individual-service-page>.row>.image-col{
+    display: flex;
+    align-items: center;
+}
+.individual-service-page>.row>.image-col>img{
+    height: 250px;
+    animation: imageanim 1s linear;
+    filter: drop-shadow(10px 10px 10px black);
+}
+
+
+
+.individual-service-page>.row>.text-col{
+    color: white ;
+    text-align: right;
+    
+    
+}
+.individual-service-page>.row>.text-col>h1{
+    font-size: 2rem;
+    border-bottom: 5px solid red;
+    letter-spacing: 0.1rem;
+    padding-block: 10px;
+    text-align: left;
+    font-weight: 500;
+}
+.individual-service-page>.row>.text-col>p{
+  font-size: 1.2rem;
+  font-weight: 200;
+  text-align: justify;
+ 
+}
+
+@media only screen and (max-width:1000px){
+    .individual-service-page>.row>.text-col>h1{
+        font-size: 1.7rem;
+        font-weight: 500;
+    }
+    .individual-service-page>.row>.text-col>p{
+      font-size: 1.1rem;
+      font-weight: 200;
+      text-align: justify;
+     
+    }
+}
+@media only screen and (max-width:1000px){
+    
+    .individual-service-page>.row>.image-col>img{
+        height: 220px;
+        animation: imageanim 1s linear;
+    }
+}
+@media only screen and (max-width:600px){
+    
+    .individual-service-page>.row{
+        display: flex;
+        flex-direction: column;
+    }
+    .individual-service-page>.row>.image-col{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media only screen and (max-width:480px){
+    
+    .individual-service-page>.row>.text-col>h1{
+        font-size: 1.5rem;
+  
+    }
+    .individual-service-page>.row>.text-col>p{
+      font-size: 1rem;
+    
+     
+    }
+}
+
+
+/***************individual service page Styles End*************************/
+
+@media only screen and (max-width:1000px){
+    .services-page>.row>.service-about-col>.heading{
+    
+        font-size: 30px;
+    }
+    .services-page>.row>.service-about-col>.description{
+        
+        font-size: 1.1rem;
+   
+    }
+}
+
+@media only screen and (max-width:900px){
+    .services-page>.row>.service-about-col>.heading{
+    
+        font-size: 25px;
+    }
+    .services-page>.row>.service-about-col>.description{
+        
+        font-size: 1rem;
+   
+    }
+}
+@media only screen and (max-width:750px){
+    .services-page>.row{
+        display: flex;flex-direction: column;
+    }
+    .services-page>.row>.col>img{
+        height: 150px;
+       
+    }
+
+}

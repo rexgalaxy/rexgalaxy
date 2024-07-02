@@ -1,0 +1,438 @@
+/**********Hire Developers start********/
+.hire-developer-page {
+  position: relative;
+  z-index: 2;
+  /* gap: 5rem; */
+}
+
+.hire-developer-page > .main-heading > .col {
+  /* border: 5px solid white; */
+  font-size: 100px;
+  /* color: rgb(78, 78, 205); */
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  z-index: 2;
+  height: 100vh;
+  letter-spacing: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 15px 15px 20px black;
+}
+.hire-developer-page > .main-heading > .background-design-red {
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  top: -100px;
+  left: -100px;
+  box-shadow: 10px 10px 20px 20px black;
+  z-index: 1;
+  border-radius: 200px;
+  position: fixed;
+  background-color: rgb(238, 97, 90);
+}
+.hire-developer-page > .main-heading > .background-design-blue {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 200px;
+  left: -100px;
+  box-shadow: 0px 0px 20px 20px black;
+  z-index: 1;
+  position: fixed;
+  border-radius: 200px;
+  background-color: rgb(122, 135, 236);
+}
+.hire-developer-page > .top-heading-row {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  /* border: 5px solid green; */
+  z-index: 2;
+  position: relative;
+  height: max-content;
+}
+.hire-developer-page > .top-heading-row > .heading {
+  /* color: rgb(230, 39, 39); */
+  color: white;
+  text-shadow: 10px 10px 15px black;
+  font-size: 2.5rem;
+  /* align-items: center; */
+  letter-spacing: 2px;
+  height: max-content;
+  font-weight: 700;
+  padding-block: 2rem;
+}
+
+.hire-developer-page > .top-heading-row > .text {
+  color: white;
+  /* border: 5px solid yellow; */
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-weight: 200;
+  padding-inline: 10rem;
+  text-align: justify;
+  word-spacing: 3px;
+  padding-block: 5rem;
+}
+/*******Hire developers end*********/
+
+/***********FORM ROW start**************/
+.hire-developer-page > .form-row {
+  padding-inline: 4rem;
+  padding-block: 5rem;
+  /* border: 5px solid white; */
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  height: max-content;
+  justify-content: space-around;
+  position: relative;
+  gap: 7rem;
+  color: aliceblue;
+}
+
+.hire-developer-page > .form-row > .text-col > h2 {
+  /* border: 5px solid red; */
+  font-size: 2.5rem;
+  line-height: 3rem;
+  padding-block: 2rem;
+}
+.hire-developer-page > .form-row > .text-col {
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-align: justify;
+  /* border: 5px solid yellow; */
+  padding-block: 3rem;
+}
+
+/***************Form style start***************/
+.hire-developer-page > .form-row > .form-col {
+  /* border: 5px solid blue; */
+  padding-block: 3rem;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: -10px 10px 20px 20px black;
+  overflow: hidden;
+  height: max-content;
+}
+.hire-developer-page > .form-row > .form-col > .form-background-design-red {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(238, 97, 90);
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  top: 180px;
+  border-radius: 50px;
+}
+.hire-developer-page > .form-row > .form-col > .form-background-design-blue {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(122, 135, 236);
+  position: absolute;
+  z-index: -1;
+  left: -50px;
+  bottom: -50px;
+  border-radius: 100px;
+}
+.hire-developer-page > .form-row > .form-col > h3 {
+  color: rgb(78, 78, 205);
+  padding-block: 2rem;
+  margin-block-end: 2rem;
+  font-size: 2rem;
+  text-align: center;
+  /* border: 5px solid white; */
+}
+.hire-developer-page > .form-row > .form-col > form {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid green; */
+  width: 90%;
+}
+
+.hire-developer-page > .form-row > .form-col > form > input,
+select {
+  /* border: 5px solid pink; */
+  height: 4rem;
+  width: 100% !important;
+  align-self: center;
+  margin-block-end: 2rem;
+  font-size: 1.5rem;
+  border-radius: 10px;
+}
+.hire-developer-page > .form-row > .form-col > form > #submit-btn {
+  width: max-content;
+  /* border: 5px solid red; */
+  align-self: center;
+  margin-block: 3rem;
+  padding-inline: 3rem;
+  transition: all 0.5s;
+  letter-spacing: 2px;
+}
+.hire-developer-page > .form-row > .form-col > form > #submit-btn:hover {
+  background-color: rgb(78, 78, 205);
+  color: white;
+}
+/****************form style end**************************/
+
+/**************form row end***************/
+
+/***********Expolre service section start****************/
+
+.hire-developer-page > .explore-service-row {
+  /* border: 5px solid magenta; */
+  padding-block: 2rem;
+  color: white;
+  height: max-content;
+  padding-inline: 5rem;
+  z-index: 2;
+}
+.hire-developer-page > .explore-service-row > .text-col > h2 {
+  font-size: 3rem;
+  padding-block: 2rem;
+  /* border: 5px solid green; */
+  text-align: center;
+}
+
+.hire-developer-page > .explore-service-row > .text-col {
+  font-size: 1.2rem;
+  padding-block: 2rem;
+  /* border: 5px solid yellow; */
+  font-weight: 200;
+  text-align: center;
+}
+
+.hire-developer-page > .explore-service-row > .services-time-col {
+  padding-inline: 5rem;
+  padding-block: 3rem;
+  /* border: 5px solid blue; */
+}
+.hire-developer-page > .explore-service-row > .services-time-col > .row {
+  gap: 4rem;
+}
+.hire-developer-page > .explore-service-row > .services-time-col > .row > .col {
+  height: max-content;
+  border-radius: 20px;
+  /* border: 5px solid white; */
+  padding-block: 1rem;
+  cursor: pointer;
+  padding-inline: 2rem;
+  text-align: right;
+  font-size: 1.2rem;
+  font-weight: 200;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+  background-color: rgb(12, 12, 143);
+  box-shadow: 5px 5px 10px 10px black;
+  transition: all 0.5s;
+}
+.hire-developer-page > .explore-service-row > .services-time-col > .row > .col:hover {
+  background-color: rgb(54, 54, 230);
+}
+.hire-developer-page
+  > .explore-service-row
+  > .services-time-col
+  > .row
+  > .col
+  > h4 {
+  padding-block-end: 2rem;
+  font-size: 2.5rem;
+  /* border: 5px solid green; */
+}
+.hire-developer-page
+  > .explore-service-row
+  > .services-time-col
+  > .row
+  > .col
+  > .explore-btn {
+  padding-block-start: 4rem;
+  letter-spacing: 2px;
+}
+/* .hire-developer-page
+  > .explore-service-row
+  > .services-time-col
+  > .row
+  > .col
+  > .background-design {
+  background-color: transparent;
+  margin-top: -100px;
+  height: 100px;
+  border-radius: 50px;
+  width: 100px;
+  position: absolute;
+  z-index: -1;
+  transition: all 0.9s;
+}
+
+.hire-developer-page
+  > .explore-service-row
+  > .services-time-col
+  > .row
+  > .col:hover
+  .background-design {
+  height: 1700px;
+  width: 1700px;
+  background-color: rgb(78, 78, 205);
+  border-radius: 300px;
+  margin-block-start: -400px;
+  margin-inline-start: -200px;
+} */
+
+/*********explore services section end********************/
+
+/*************Media Query*************/
+@media only screen and (max-width: 1400px) {
+  .hire-developer-page > .top-heading-row > .text {
+    font-size: 1.2rem;
+    padding-inline: 5rem;
+  }
+  .hire-developer-page > .form-row {
+    gap: 2rem;
+  }
+  .hire-developer-page > .form-row > .text-col > h2 {
+    padding-block: 1rem;
+    font-size: 2rem;
+  }
+  .hire-developer-page > .form-row > .text-col {
+    font-size: 1rem;
+  }
+
+  /***************Form style start***************/
+  .hire-developer-page > .form-row > .form-col {
+    padding-inline: 5rem;
+  }
+
+  .hire-developer-page > .form-row > .form-col > form > input,
+  select {
+    height: 3rem;
+    font-size: 1.2rem;
+  }
+
+  .hire-developer-page > .explore-service-row > .text-col > h2 {
+    font-size: 2.5rem;
+  }
+
+  .hire-developer-page > .explore-service-row > .text-col {
+    font-size: 1rem;
+  }
+
+  .hire-developer-page
+    > .explore-service-row
+    > .services-time-col
+    > .row
+    > .col {
+    font-size: 1rem;
+  }
+  .hire-developer-page
+    > .explore-service-row
+    > .services-time-col
+    > .row
+    > .col
+    > h4 {
+    font-size: 2rem;
+  }
+  .hire-developer-page
+    > .explore-service-row
+    > .services-time-col
+    > .row
+    > .col
+    > .explore-btn {
+    padding-block-start: 2rem;
+    letter-spacing: 2px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .hire-developer-page > .top-heading-row > .text {
+    font-size: 1.1rem;
+    padding-inline: 2rem;
+  }
+
+  .hire-developer-page > .form-row {
+    padding-inline: 2rem;
+    padding-block: 3rem;
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .hire-developer-page > .explore-service-row {
+    padding-inline: 2rem;
+  }
+  .hire-developer-page > .explore-service-row > .text-col > h2 {
+    font-size: 2rem;
+  }
+
+  .hire-developer-page > .explore-service-row > .text-col {
+    font-size: 1.2rem;
+  }
+
+  .hire-developer-page > .explore-service-row > .services-time-col {
+    padding-inline: 3rem;
+  }
+  .hire-developer-page > .explore-service-row > .services-time-col > .row {
+    gap: 2rem;
+  }
+  .hire-developer-page
+    > .explore-service-row
+    > .services-time-col
+    > .row
+    > .col {
+    padding-inline: 1rem;
+    font-size: 1.1rem;
+  }
+  .hire-developer-page
+    > .explore-service-row
+    > .services-time-col
+    > .row
+    > .col
+    > h4 {
+    padding-block-end: 1rem;
+    font-size: 2rem;
+  }
+  .hire-developer-page
+    > .explore-service-row
+    > .services-time-col
+    > .row
+    > .col
+    > .explore-btn {
+    padding-block-start: 2rem;
+  }
+}
+
+@media only screen and (max-width: 810px) {
+  .hire-developer-page > .explore-service-row > .services-time-col {
+    padding-inline: 5rem;
+    padding-block: 3rem;
+  }
+  .hire-developer-page > .explore-service-row > .services-time-col > .row {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+@media only screen and (max-width:600px){
+  .hire-developer-page > .main-heading > .col {
+    
+    font-size: 50px;
+ 
+  }
+  .hire-developer-page > .form-row > .form-col{
+   padding-inline:1rem;
+  }
+  .hire-developer-page > .explore-service-row > .services-time-col {
+    padding-inline: 1rem;
+  }
+  .hire-developer-page > .explore-service-row > .services-time-col > .row {
+    gap: 4rem;
+  }
+
+}
